@@ -1,6 +1,6 @@
 This is a script that was designed to move files in a directory into a new folder to prepare for deletion or just movement into a new location. It takes user input to decide where to move all of the files to. The details of the program are below in the order the program executes them. If you have any questions, please reach out to Jordon Bigelow.
 
----If you would like to use this remotely, you will need to compile it into an exe. Simply download the code and use the AutoIT editor to "build" an exe for you. This program requires admin privledges---
+---If you would like to use this remotely, you will need to compile it into an exe. Simply download the code and use the AutoIT editor to "build" an exe for you. You will need AutoIT installed on your machine to do this. This script requires admin privledges to run---
 
 1. The program grabs user input for the location of the files you are trying to move. This is stored as a variable called $userDirectory.
 	-If the filepath is left blank, an error will display telling the user that the path cannot be blank.
