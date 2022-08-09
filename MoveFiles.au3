@@ -106,4 +106,5 @@ For $index = 1 To UBound($csvFileArray) - 1
 Next
 #EndRegion
 
-MsgBox(0, "Finished", "Files Moved! Log file created of files successfully moved.")
+FileClose($fileContents) ;Closes the CSV file
+MsgBox(0, "Finished", "Files Moved! Log file created.")
